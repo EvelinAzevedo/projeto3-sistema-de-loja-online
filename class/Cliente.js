@@ -1,4 +1,4 @@
-const Usuario = require("./Usuario")
+const Usuario = require("../class/Usuario")
 
 class Cliente extends Usuario {
     constructor(nome, idade) {
