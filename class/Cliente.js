@@ -2,11 +2,11 @@ const Usuario = require("../class/Usuario")
 
 class Cliente extends Usuario {
     constructor(nome, idade) {
-        super(nome,idade)
+        super(nome, idade)
         this.carrinho = []
     }
     acessoPainel() {
-        console.log("Acesso ao painel de compras")
+        return "Acesso ao painel de compras."
     }
     adicionarProduto(produto) {
         this.carrinho.push(produto)

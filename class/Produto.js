@@ -1,7 +1,7 @@
 class Produto {
-    constructor(nome,preco,estoque) {
+    constructor(nome, preco, estoque) {
         this.nome = nome
-        this.preço = preco
+        this.preco = preco
         this.estoque = estoque
     }
 }

@@ -1,11 +1,12 @@
 class Pedido{
-    constructor(cliente,produtos) {
+    constructor(cliente, produtos) {
         this.cliente = cliente
         this.produtos = produtos
     }
-    calcularTotal() {
-        let resultado = 0
-        
+
+      calcularTotal() {
+        return this.produtos.reduce((total, produto) => total + produto.preco, 0)
+
     }
 }
 
